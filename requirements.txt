@@ -1,0 +1,14 @@
+torch
+torchvision
+torchaudio
+opencv-python
+numpy
+pillow
+gradio
+tqdm
+pyyaml
+matplotlib
+albumentations
+scikit-image
+onnx
+onnxruntime-gpu
