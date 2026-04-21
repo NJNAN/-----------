@@ -1,0 +1,11 @@
+style_name: vangogh
+
+dataset:
+  trainA: data/prepared/vangogh/trainA
+  trainB: data/prepared/vangogh/trainB
+  testA: data/prepared/vangogh/testA
+  testB: data/prepared/vangogh/testB
+
+output:
+  checkpoint_dir: checkpoints/vangogh
+  log_dir: logs/vangogh
