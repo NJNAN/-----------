@@ -1,11 +1,20 @@
+# 当前风格名称。训练脚本可以用它区分不同风格实验的输出。
 style_name: vangogh
 
+# 数据集路径配置。
+# trainA/testA 通常放照片域数据；trainB/testB 通常放梵高风格域数据。
 dataset:
+  # 训练时使用的照片域图片。
   trainA: data/prepared/vangogh/trainA
+  # 训练时使用的梵高风格图片。
   trainB: data/prepared/vangogh/trainB
+  # 测试时使用的照片域图片。
   testA: data/prepared/vangogh/testA
+  # 测试时使用的梵高风格图片。
   testB: data/prepared/vangogh/testB
 
+# 输出目录配置。
+# checkpoint_dir 用来保存模型参数；log_dir 用来保存训练日志和样例结果。
 output:
   checkpoint_dir: checkpoints/vangogh
   log_dir: logs/vangogh
